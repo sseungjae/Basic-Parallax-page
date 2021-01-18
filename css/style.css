@@ -9,6 +9,34 @@ html {
   color: #666;
 }
 
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* 
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: rgb(233, 180, 174);
+}
+h2 {
+  border: 1px solid red;
+}
+p {
+  border: 1px solid red;
+}
+
 .pimg1 {
   background-image: url("../img/img1.jpg");
   min-height: 100%;
