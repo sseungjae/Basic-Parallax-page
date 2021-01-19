@@ -72,3 +72,36 @@ p {
   letter-spacing: 8px;
   text-transform: uppercase;
 }
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    background-attachment: scroll;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  position: relative;
+}
+
+.padd-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
